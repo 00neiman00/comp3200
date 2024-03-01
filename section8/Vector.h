@@ -16,6 +16,16 @@ public:
 private:
     int mX;
     int mY;
+
+    int GetX() const;
+
+    int GetY() const;
+
+    void SetX(int x);
+
+    void SetY(int y);
+
+    void Add(const Vector &vector);
 };
 
 
